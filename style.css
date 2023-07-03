@@ -1,0 +1,44 @@
+
+
+:root {
+  --main-bg: #1f2937;
+  --secondary-bg: #374151;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background: rgb(191, 191, 191);
+}
+main {
+  display: flex;
+  justify-content: center;
+}
+#screen {
+  width: 400px;
+  height: 800px;
+  background: var(--main-bg);
+  border-radius: 15px;
+}
+
+#nav {
+  background: var(--secondary-bg);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 160px;
+  color:white;
+}
+
+button{
+    background:inherit;
+    color:inherit;
+    border:none;
+    cursor:pointer;
+}
+
+#notifications-zone{
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:2px;
+    height:30px;
+    display:flex;
+    justify-content: space-between;
+}
