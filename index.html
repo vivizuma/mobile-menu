@@ -11,8 +11,9 @@
     <!-- Add Material Icons -->
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
+
     <title>Mobile Menu Mockup</title>
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css" />
@@ -22,22 +23,36 @@
       <div id="screen">
         <div id="nav">
           <div id="notifications-zone">
-            <div>email notification</div>
-            <div>camera-circle</div>
-            <div>battery notification</div>
+            <div><span class="material-symbols-outlined"> mail </span></div>
+            <div id="front-cam"></div>
+            <div>
+              <span class="material-symbols-outlined"> cell_wifi </span>
+            </div>
           </div>
           <div id="title-zone">
-            <button class="title-btn">MSG APP</button>
-            <button class="title-btn">camera</button>
-            <button class="title-btn">search</button>
-            <button class="title-btn">options</button>
+            <div class="title-container-left">
+              <button class="title-btn" id="title">msgApp</button>
+            </div>
+            <div class="title-container-right">
+              <button class="title-btn">
+                <span class="material-symbols-outlined"> photo_camera </span>
+              </button>
+              <button class="title-btn">
+                <span class="material-symbols-outlined"> search </span>
+              </button>
+              <button class="title-btn">
+                <span class="material-symbols-outlined"> more_vert </span>
+              </button>
+            </div>
           </div>
 
           <div id="menu-zone">
-            <button class="menu-btn">groups</button>
-            <button class="menu-btn">chat</button>
-            <button class="menu-btn">status</button>
-            <button class="menu-btn">calls</button>
+            <button class="menu-btn" id="group-btn">
+              <span class="material-symbols-outlined"> groups </span>
+            </button>
+            <button class="menu-btn">CHAT</button>
+            <button class="menu-btn">STATUS</button>
+            <button class="menu-btn">CALLS</button>
           </div>
         </div>
         <div id="content">Hello</div>
